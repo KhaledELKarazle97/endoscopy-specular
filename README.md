@@ -1,8 +1,6 @@
 ## Overview
 
-This is a re-implementation of a Hessian-guided
-specular reflection detection method in HSV color space, originally
-described in IEEE JBHI (2024).
+This is a Implementation of the glare detection algorithim introduced in the paper titled "A Hessian-Based Technique for Specular Reflection Detection and Inpainting in Colonoscopy Images"
 
 ## Method
 

@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: endoscopy_specular
+Version: 0.1.1
+Summary: Hessian-based specular reflection detection in endoscopy images
+Author: Khaled ELKarazle
+Project-URL: Homepage, https://github.com/KhaledELKarazle97/endoscopy-specular
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Dynamic: license-file
+
+## Overview
+
+This is a re-implementation of a Hessian-guided
+specular reflection detection method in HSV color space, originally
+described in IEEE JBHI (2024).
+
+## Method
+
+- HSV conversion
+- S-channel smoothing
+- Hessian eigenvalue analysis
+- Photometric constraints (S, V thresholds)
+- Binary mask output
+
+## Reference
+If you use this package, please cite:
+
+ElKarazle, K., Raman, V., Chua, C., Then, P. "A Hessian-Based Technique for Specular Reflection Detection and Inpainting in Colonoscopy Images" IEEE Journal of Biomedical and Health Informatics, 2024. DOI: 10.1109/JBHI.2024.3404955

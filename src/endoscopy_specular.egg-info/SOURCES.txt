@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/endoscopy_specular/__init__.py
+src/endoscopy_specular/core.py
+src/endoscopy_specular/utils.py
+src/endoscopy_specular.egg-info/PKG-INFO
+src/endoscopy_specular.egg-info/SOURCES.txt
+src/endoscopy_specular.egg-info/dependency_links.txt
+src/endoscopy_specular.egg-info/requires.txt
+src/endoscopy_specular.egg-info/top_level.txt
+test/test_core.py
