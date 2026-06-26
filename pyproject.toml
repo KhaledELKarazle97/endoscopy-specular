@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endoscopy_specular"
+version = "0.1.0"
+description = "Hessian-based specular reflection detection in endoscopy images"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy",
+    "opencv-python"
+]
+
+authors = [
+    {name = "Khaled ELKarazle"}
+]
+
+[project.urls]
+Homepage = "https://github.com/KhaledELKarazle97/endoscopy-specular"
