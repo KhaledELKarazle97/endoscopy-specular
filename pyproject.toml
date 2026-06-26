@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "endoscopy_specular"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hessian-based specular reflection detection in endoscopy images"
 readme = "README.md"
 requires-python = ">=3.8"
